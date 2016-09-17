@@ -1,23 +1,64 @@
 ---
-layout: default
 title: Rohan M
 ---
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Rohan Mahadev">
+    <meta name="author" content="Rohan Mahadev">
+    <title>Rohan M</title>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie.css" rel="stylesheet">
+    <link href="css/cover.css" rel="stylesheet">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="site-wrapper">
+         <div class="site-wrapper-inner">
+           <div class="cover-container">
+             <div class="masthead clearfix">
+               <div class="inner">
+                 <h3 class="masthead-brand">Cover</h3>
+                 <nav>
+                   <ul class="nav masthead-nav">
+                     <li class="active"><a href="#">Home</a></li>
+                     <li><a href="#">Projects</a></li>
+                     <li><a href="#">Contact</a></li>
+                   </ul>
+                 </nav>
+               </div>
+             </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+             <div class="inner cover">
+               <h1 class="cover-heading">Cover your page.</h1>
+               <p class="lead">
+                 <a href="#" class="btn btn-lg btn-default">Learn more</a>
+               </p>
+             </div>
 
-</div>
+             <div class="mastfoot">
+               <div class="inner">
+                 <p>Cover for <a href="#">Rohan M.</a>, by <a href="https://twitter.com/rowhanm">@rowhanm</a>.</p>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+       <script src="js/ie.js"></script>
+  </body>
+
+</html>
