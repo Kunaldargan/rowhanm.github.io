@@ -134,7 +134,6 @@ ul li {
 }
 
 ul li:before {
-  content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
   color: #b5e853;
@@ -251,4 +250,18 @@ a {
 
 .cf {
   zoom:1;
+}
+
+.menu ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    text-align: center;
+    padding: 16px;
 }
